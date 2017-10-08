@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #FFFFFA;
+	font-size: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	color: #111;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	font-weight: 400;
+}
+				/*banner styles*/
+.banner{
+	background: url("../img/post.jpg");
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+				/*menu navegacion estilos*/
+
+.navbar ul li i{
+	margin-right: .6rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: .5rem;
+  border-radius: 9px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active {
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: #fafafa;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: #fafafa;
+}
+.bg-color{
+	background-color: #363333;
+}
+
+
+			/*"servicios - section" estilos */
+
+
+.box-top h2{
+	text-align: center;
+	margin-top: 2.4rem;
+}
+.box-top ul li {
+	list-style-type: none;
+	text-align: center;
+}
+.box-top{
+	margin-top: 4rem;
+}
+.video{
+	width: 100%;
+	min-width: 200px;
+	height: 320px;
+}
+.precios{
+	background: #D1D8D1;
+	padding: 1.2rem;
+}
+.precios small{
+	color: #FF404C;
+	
+}
+		/*"contacto - section" estilos */
+
+.contacto{
+	background: #ECE7D8;
+	margin-top: 4rem;
+}
+
+textarea{
+
+	width: 200px;
+	height: 100px;
+	min-width: 250px;
+	min-height: 100px;
+	max-height: 300px;
+}
+		/*footer section estilos*/
+.link{
+	color: #FAFAFA;
+	/*font-family: 'Great Vibes', cursive;*/
+}
+a{
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: #383736;
+}
